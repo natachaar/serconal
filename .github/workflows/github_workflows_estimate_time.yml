@@ -1,0 +1,29 @@
+name: Estimate Time on Commit
+
+on:
+  push:
+    branches:
+      - test  # O la rama que desees monitorizar
+
+jobs:
+  estimate-time:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository with full history
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 2  # Clonar los últimos 2 commits para permitir git diff
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+
+      - name: Run estimate_time.py
+        run: |
+          python estimate_time.py
