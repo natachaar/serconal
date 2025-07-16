@@ -1,0 +1,68 @@
+# .gitignore para CodeIgniter 4
+
+# Ignora el entorno y configuración local
+.env
+.env.*
+
+# Ignora las carpetas del IDE/editor
+.idea/
+.vscode/
+nbproject/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Composer
+/vendor/
+/composer.lock
+
+# Logs
+/writable/logs/*
+!/writable/logs/index.html
+
+# Cache
+/writable/cache/*
+!/writable/cache/index.html
+
+# Sesiones
+/writable/session/*
+!/writable/session/index.html
+
+# Archivos temporales
+/writable/tmp/*
+!/writable/tmp/index.html
+
+# Cargas de usuario (ajusta si no quieres ignorar todo uploads)
+/writable/uploads/*
+!/writable/uploads/index.html
+
+# PHPUnit resultados
+phpunit.xml
+phpunit-result.xml
+
+# Coverage
+coverage/
+
+# Node y NPM
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Otros posibles archivos sensibles
+*.bak
+*.swp
+*.tmp
+*.log
+
+# CI4 User Guide (si lo tienes descargado)
+user_guide_src/
+user_guide/
+
+# Ignora archivos zip generados
+*.zip
+
+# Ignora el archivo de SQLite por si usas DB local
+/writable/database.db
