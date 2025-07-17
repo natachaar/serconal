@@ -19,8 +19,8 @@ use Psr\Log\LoggerInterface;
  *
  * For security be sure to declare any new methods as protected or private.
  */
-abstract class BaseController extends Controller
-{
+abstract class BaseController extends Controller {
+
     /**
      * Instance of the main Request object.
      *
@@ -35,7 +35,7 @@ abstract class BaseController extends Controller
      *
      * @var list<string>
      */
-    protected $helpers = [];
+    protected $helpers = ['url', 'functions', 'date'];
 
     /**
      * Be sure to declare properties for any property fetch you initialized.
@@ -43,16 +43,38 @@ abstract class BaseController extends Controller
      */
     // protected $session;
 
+    protected $session, $db, $validation, $GeneralModel;
+    protected $headerData = [
+        'sideBar' => [
+            'navbar' => '',
+            'navbarLink' => ''
+        ]
+    ];
+
+    protected function setHeaderData(array $data) {
+        // Reemplaza o actualiza claves del header
+        $this->headerData['sideBar'] = array_merge($this->headerData['sideBar'], $data);
+    }
+
+    protected function renderView(string $view, array $data = [], array $options = []) {
+        echo view('layout/view_header', $this->headerData);
+        echo view($view, $data, $options);
+        echo view('layout/view_footer');
+    }
+
     /**
      * @return void
      */
-    public function initController(RequestInterface $request, ResponseInterface $response, LoggerInterface $logger)
-    {
+    public function initController(RequestInterface $request, ResponseInterface $response, LoggerInterface $logger) {
+        date_default_timezone_set('America/Mexico_City');
         // Do Not Edit This Line
         parent::initController($request, $response, $logger);
 
         // Preload any models, libraries, etc, here.
-
         // E.g.: $this->session = service('session');
+        $this->session = \Config\Services::session();
+        $this->validation = \Config\Services::validation();
+        $this->db = \Config\Database::connect(); //libreria database
+        $this->GeneralModel = new \App\Models\GeneralModel(); //modelo general
     }
 }

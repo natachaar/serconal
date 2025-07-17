@@ -39,6 +39,10 @@ Thumbs.db
 /writable/uploads/*
 !/writable/uploads/index.html
 
+# Debugbar - archivos temporales de depuración de CI4
+/writable/debugbar/*
+!/writable/debugbar/index.html
+
 # PHPUnit resultados
 phpunit.xml
 phpunit-result.xml
