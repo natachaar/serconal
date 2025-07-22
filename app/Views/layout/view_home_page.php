@@ -14,9 +14,7 @@
         <!-- Bootstrap + Theme styles -->
         <link rel="stylesheet" href="<?= base_url('assets/css/bootstrap.min.css'); ?>">
         <link rel="stylesheet" href="<?= base_url('assets/css/theme.css?v=1.0.0'); ?>">
-        <link rel="stylesheet" href="<?= base_url('assets/css/fontawesome_all.min.css'); ?>">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
-        <link rel="stylesheet" href="<?= base_url('assets/css/jquery.loadingModal.css'); ?>">
     </head>
     <body>
 
@@ -123,182 +121,102 @@
 
                 <div class="row justify-content-center align-items-center mb-3">
                     <div class="col-md-6 text-center">
-                        <img class="img-fluid" src="<?= base_url('assets/img/dapamas.png') ?>" width="40%" alt="Dapamas">
+                        <img class="img-fluid" src="<?= base_url('assets/img/dapamas.png') ?>" width="40%" alt="Dapamas Marketplace">
                     </div>
                     <div class="col-md-5">
-                        <h3 class="display-5 me-3">Dapamas Tienda, <br>el marketplace donde comprar para Cuba</h3>
+                        <h3 class="display-5 me-3">Dapamas Tienda, <br>el marketplace donde comprar para Cuba.</h3>
                         <p class="lead mb-4">
                             En <strong class="text-primary">dapamas.com</strong> conectamos a compradores y vendedores para que encuentres todo lo que necesitas en un solo lugar. 
                             Desde artículos para el hogar hasta productos personales, tenemos opciones para todos los gustos.  
                             Es más fácil, seguro y eficiente. <br><br> <i><b>¿Lo mejor?</b> Puedes comprar desde cualquier lugar y enviar directamente a Cuba.</i>
                         </p>
-                        <a class="btn btn-lg btn-primary mb-3" href="https://dapamas.com/" target="_blank">
+                        <a class="btn btn-lg btn-primary mb-3" href="https://dapamas.com/" target="_blank" title="Comprar productos en línea para Cuba">
                             Comprar Ahora
                             <i class="bi bi-arrow-up-right ms-2"></i>
                         </a>
                     </div>
                 </div>
                 <hr>
-                 <div class="row justify-content-center align-items-center mb-3">
+                <div class="row justify-content-center align-items-center mb-3">
                     <div class="col-md-5 offset-1">
-                        <h3 class="display-5 me-3">Dapamas Tienda, <br>el marketplace donde comprar para Cuba</h3>
+                        <h3 class="display-5 me-3">Recargas de celulares, <br>paquete de datos y cuentas nautas.</h3>
                         <p class="lead mb-4">
-                            En <strong class="text-primary">dapamas.com</strong> conectamos a compradores y vendedores para que encuentres todo lo que necesitas en un solo lugar. 
-                            Desde artículos para el hogar hasta productos personales, tenemos opciones para todos los gustos.  
-                            Es más fácil, seguro y eficiente. <br><br> <i><b>¿Lo mejor?</b> Puedes comprar desde cualquier lugar y enviar directamente a Cuba.</i>
+                            Realiza recargas a Cuba de forma fácil, rápida y segura, ya sea para celulares, cuentas Nauta o planes combinados con datos, minutos y SMS. 
+                            <br><br>
+                            Paga cómodamente en línea con OXXO, SPEI o tarjetas Visa y MasterCard, elige entre diferentes importes y aprovecha nuestras promociones exclusivas para mantenerte siempre conectado con tus seres queridos.
                         </p>
-                        <a class="btn btn-lg btn-primary mb-3" href="https://dapamas.com/" target="_blank">
-                            Comprar Ahora
+                        <a class="btn btn-lg btn-outline-primary mb-3 me-2" href="https://oceancard.com.mx/promociones" target="_blank" title="Promociones de recargas de celulares a Cuba">
+                            <i class="bi bi-stars text-warning me-1 fa-lg"></i> Ver promociones
+                        </a>
+                        <a class="btn btn-lg btn-primary mb-3" href="https://oceancard.com.mx/" target="_blank" title="Realizar una recarga de celular en Cuba">
+                            Realizar una recarga
                             <i class="bi bi-arrow-up-right ms-2"></i>
                         </a>
+
                     </div>
-                     <div class="col-md-5 text-center">
-                        <img class="img-fluid" src="<?= base_url('assets/img/connection.svg') ?>" alt="Dapamas">
+                    <div class="col-md-5 text-center">
+                        <img class="img-fluid" src="<?= base_url('assets/img/connection.svg') ?>" alt="Servicios a Cuba">
                     </div>
                 </div>
-
-                
-              
             </div>
             <!-- End Card Grid -->
 
             <!-- Features -->
-            <div class="container-lg content-space-b-2 content-space-b-lg-3">
+            <div class="container-lg content-space-b-2">
                 <ul class="list-inline list-py-2 list-px-1 text-center mb-0">
                     <li class="list-inline-item">
-                        <span class="badge bg-soft-secondary text-dark fs-4 py-2 px-3">Bootstrap Icons</span>
+                        <span class="badge bg-soft-secondary text-dark fs-4 py-2 px-3">Compras en Cuba</span>
                     </li>
                     <li class="list-inline-item">
-                        <span class="badge bg-soft-secondary text-dark fs-4 py-2 px-3">Illustrations</span>
+                        <span class="badge bg-soft-secondary text-dark fs-4 py-2 px-3">Dapamas Marketplace</span>
                     </li>
                     <li class="list-inline-item">
-                        <span class="badge bg-soft-secondary text-dark fs-4 py-2 px-3">Accordion</span>
+                        <span class="badge bg-soft-secondary text-dark fs-4 py-2 px-3">Compras en línea</span>
                     </li>
                     <li class="list-inline-item">
-                        <span class="badge bg-soft-secondary text-dark fs-4 py-2 px-3">Alerts</span>
+                        <span class="badge bg-soft-secondary text-dark fs-4 py-2 px-3">Recarga de Celulares</span>
                     </li>
                     <li class="list-inline-item">
-                        <span class="badge bg-soft-secondary text-dark fs-4 py-2 px-3">Avatars</span>
+                        <span class="badge bg-soft-secondary text-dark fs-4 py-2 px-3">Tarjetas Clásicas</span>
                     </li>
                     <li class="list-inline-item">
-                        <span class="badge bg-soft-secondary text-dark fs-4 py-2 px-3">Badge</span>
+                        <span class="badge bg-soft-secondary text-dark fs-4 py-2 px-3">Paquete de Datos</span>
                     </li>
                     <li class="list-inline-item">
-                        <span class="badge bg-soft-secondary text-dark fs-4 py-2 px-3">Breadcrumb</span>
+                        <span class="badge bg-soft-secondary text-dark fs-4 py-2 px-3">Recargas Nauta Plus</span>
                     </li>
                     <li class="list-inline-item">
-                        <span class="badge bg-soft-secondary text-dark fs-4 py-2 px-3">Buttons</span>
+                        <span class="badge bg-soft-secondary text-dark fs-4 py-2 px-3">Promociones</span>
                     </li>
                     <li class="list-inline-item">
-                        <span class="badge bg-soft-secondary text-dark fs-4 py-2 px-3">Cards</span>
+                        <span class="badge bg-soft-secondary text-dark fs-4 py-2 px-3">Planes de Datos, Minutos y SMS</span>
                     </li>
                     <li class="list-inline-item">
-                        <span class="badge bg-soft-secondary text-dark fs-4 py-2 px-3">Collapse</span>
+                        <span class="badge bg-soft-secondary text-dark fs-4 py-2 px-3">Internet Ilimitado en Cuba</span>
                     </li>
                     <li class="list-inline-item">
-                        <span class="badge bg-soft-secondary text-dark fs-4 py-2 px-3">Column Divider</span>
+                        <span class="badge bg-soft-secondary text-dark fs-4 py-2 px-3">Tarjetas AIS</span>
                     </li>
                     <li class="list-inline-item">
-                        <span class="badge bg-soft-secondary text-dark fs-4 py-2 px-3">Divider</span>
+                        <span class="badge bg-soft-secondary text-dark fs-4 py-2 px-3">Productos para el hogar</span>
                     </li>
                     <li class="list-inline-item">
-                        <span class="badge bg-soft-secondary text-dark fs-4 py-2 px-3">Dropdowns</span>
+                        <span class="badge bg-soft-secondary text-dark fs-4 py-2 px-3">Alimentos</span>
                     </li>
                     <li class="list-inline-item">
-                        <span class="badge bg-soft-secondary text-dark fs-4 py-2 px-3">Icons</span>
+                        <span class="badge bg-soft-secondary text-dark fs-4 py-2 px-3">Tienda en línea</span>
                     </li>
                     <li class="list-inline-item">
-                        <span class="badge bg-soft-secondary text-dark fs-4 py-2 px-3">List Group</span>
+                        <span class="badge bg-soft-secondary text-dark fs-4 py-2 px-3">Productos de aseo personal</span>
                     </li>
                     <li class="list-inline-item">
-                        <span class="badge bg-soft-secondary text-dark fs-4 py-2 px-3">Lists</span>
+                        <span class="badge bg-soft-secondary text-dark fs-4 py-2 px-3">Miceláneas</span>
                     </li>
                     <li class="list-inline-item">
-                        <span class="badge bg-soft-secondary text-dark fs-4 py-2 px-3">Legend Indicator</span>
+                        <span class="badge bg-soft-secondary text-dark fs-4 py-2 px-3">Envíos de productos a domicilio</span>
                     </li>
                     <li class="list-inline-item">
-                        <span class="badge bg-soft-secondary text-dark fs-4 py-2 px-3">Modal</span>
-                    </li>
-                    <li class="list-inline-item">
-                        <span class="badge bg-soft-secondary text-dark fs-4 py-2 px-3">Offcanvas</span>
-                    </li>
-                    <li class="list-inline-item">
-                        <span class="badge bg-soft-secondary text-dark fs-4 py-2 px-3">Page Header</span>
-                    </li>
-                    <li class="list-inline-item">
-                        <span class="badge bg-soft-secondary text-dark fs-4 py-2 px-3">Pagination</span>
-                    </li>
-                    <li class="list-inline-item">
-                        <span class="badge bg-soft-secondary text-dark fs-4 py-2 px-3">Popovers</span>
-                    </li>
-                    <li class="list-inline-item">
-                        <span class="badge bg-soft-secondary text-dark fs-4 py-2 px-3">Progress</span>
-                    </li>
-                    <li class="list-inline-item">
-                        <span class="badge bg-soft-secondary text-dark fs-4 py-2 px-3">Profile</span>
-                    </li>
-                    <li class="list-inline-item">
-                        <span class="badge bg-soft-secondary text-dark fs-4 py-2 px-3">Shapes</span>
-                    </li>
-                    <li class="list-inline-item">
-                        <span class="badge bg-soft-secondary text-dark fs-4 py-2 px-3">Spinners</span>
-                    </li>
-                    <li class="list-inline-item">
-                        <span class="badge bg-soft-secondary text-dark fs-4 py-2 px-3">Steps</span>
-                    </li>
-                    <li class="list-inline-item">
-                        <span class="badge bg-soft-secondary text-dark fs-4 py-2 px-3">Tab</span>
-                    </li>
-                    <li class="list-inline-item">
-                        <span class="badge bg-soft-secondary text-dark fs-4 py-2 px-3">Toasts</span>
-                    </li>
-                    <li class="list-inline-item">
-                        <span class="badge bg-soft-secondary text-dark fs-4 py-2 px-3">Tooltips</span>
-                    </li>
-                    <li class="list-inline-item">
-                        <span class="badge bg-soft-secondary text-dark fs-4 py-2 px-3">Typography</span>
-                    </li>
-                    <li class="list-inline-item">
-                        <span class="badge bg-soft-secondary text-dark fs-4 py-2 px-3">Navbar</span>
-                    </li>
-                    <li class="list-inline-item">
-                        <span class="badge bg-soft-secondary text-dark fs-4 py-2 px-3">Navs</span>
-                    </li>
-                    <li class="list-inline-item">
-                        <span class="badge bg-soft-secondary text-dark fs-4 py-2 px-3">Mega Menu</span>
-                    </li>
-                    <li class="list-inline-item">
-                        <span class="badge bg-soft-secondary text-dark fs-4 py-2 px-3">Navbar Vertical Aside</span>
-                    </li>
-                    <li class="list-inline-item">
-                        <span class="badge bg-soft-secondary text-dark fs-4 py-2 px-3">Scrollspy</span>
-                    </li>
-                    <li class="list-inline-item">
-                        <span class="badge bg-soft-secondary text-dark fs-4 py-2 px-3">Tables</span>
-                    </li>
-                    <li class="list-inline-item">
-                        <span class="badge bg-soft-secondary text-dark fs-4 py-2 px-3">Sticky Header</span>
-                    </li>
-                    <li class="list-inline-item">
-                        <span class="badge bg-soft-secondary text-dark fs-4 py-2 px-3">Basic Forms</span>
-                    </li>
-                    <li class="list-inline-item">
-                        <span class="badge bg-soft-secondary text-dark fs-4 py-2 px-3">Checks &amp; Switches</span>
-                    </li>
-                    <li class="list-inline-item">
-                        <span class="badge bg-soft-secondary text-dark fs-4 py-2 px-3">Input Group</span>
-                    </li>
-                    <li class="list-inline-item">
-                        <span class="badge bg-soft-secondary text-dark fs-4 py-2 px-3">Advanced Select</span>
-                    </li>
-                    <li class="list-inline-item">
-                        <span class="badge bg-soft-secondary text-dark fs-4 py-2 px-3">File Attachments</span>
-                    </li>
-                    <li class="list-inline-item">
-                        <span class="badge bg-soft-secondary text-dark fs-4 py-2 px-3">Drag' n' Drop File Uploads</span>
-                    </li>
-                    <li class="list-inline-item">
-                        <span class="badge bg-soft-secondary text-dark fs-4 py-2 px-3">WYSIWYG Editor</span>
+                        <span class="badge bg-soft-secondary text-dark fs-4 py-2 px-3">Alimentos frescos</span>
                     </li>
                 </ul>
             </div>
@@ -308,72 +226,28 @@
         <!-- ========== END MAIN CONTENT ========== -->
 
         <!-- ========== FOOTER ========== -->
-        <footer class="container-lg text-center py-10">
+        <footer class="container-lg text-center pb-10">
             <!-- Socials -->
             <ul class="list-inline mb-3">
                 <li class="list-inline-item">
-                    <a class="btn btn-soft-secondary btn-sm btn-icon rounded-circle" href="https://www.facebook.com/htmlstream">
-                        <i class="bi-facebook"></i>
+                    <a class="btn btn-soft-secondary btn-sm btn-icon rounded-circle" href="https://www.facebook.com/oceancardmexico/" target="_blank" title="Oceancard de México S.A de C.V.">
+                        <i class="bi bi-facebook"></i>
                     </a>
                 </li>
-
                 <li class="list-inline-item">
-                    <a class="btn btn-soft-secondary btn-sm btn-icon rounded-circle" href="https://twitter.com/htmlstream">
-                        <i class="bi-twitter"></i>
+                    <a class="btn btn-soft-secondary btn-sm btn-icon rounded-circle" href="https://www.instagram.com/dapamastienda/" target="_blank" title="Dapamas Marketplace">
+                        <i class="bi bi-instagram"></i>
                     </a>
                 </li>
-
-                <li class="list-inline-item">
-                    <a class="btn btn-soft-secondary btn-sm btn-icon rounded-circle" href="https://github.com/htmlstreamofficial">
-                        <i class="bi-github"></i>
-                    </a>
-                </li>
-
-                <li class="list-inline-item">
-                    <a class="btn btn-soft-secondary btn-sm btn-icon rounded-circle" href="https://www.instagram.com/htmlstream/">
-                        <i class="bi-instagram"></i>
-                    </a>
-                </li>
-            </ul>
+           </ul>
             <!-- End Socials -->
 
-            <p class="mb-0">&copy; Front. 2021 Htmlstream. All rights reserved.</p>
+            <p class="mb-0">&copy; Serconal S.A. de C.V. Todos los derechos reservados.</p>
         </footer>
         <!-- ========== END FOOTER ========== -->
-
-        <!-- Go To -->
-        <a class="js-go-to go-to position-fixed" href="javascript:;" style="visibility: hidden;" data-hs-go-to-options='{
-           "offsetTop": 700,
-           "position": {
-           "init": {
-           "right": "2rem"
-           },
-           "show": {
-           "bottom": "2rem"
-           },
-           "hide": {
-           "bottom": "-2rem"
-           }
-           }
-           }'>
-            <i class="bi-chevron-up"></i>
-        </a>
 
         <!-- Bootstrap + Theme scripts -->
         <script src="<?= base_url('assets/js/bootstrap.bundle.min.js') ?>"></script>
         <script src="<?= base_url('assets/js/jquery-3.6.0.min.js') ?>"></script>
-        <script src="<?= base_url('assets/js/fontawesome_all.min.js') ?>"></script>
-        <script src="<?= base_url('assets/js/sweetalert2.all.min.js') ?>"></script>
-        <script src="<?= base_url('assets/js/jquery.loadingModal.js') ?>"></script>
-        <script src="<?= base_url('assets/js/login.js?v=1.0.0') ?>"></script>
-
-        <script>
-            document.addEventListener('DOMContentLoaded', function () {
-                const tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
-                tooltipTriggerList.map(function (tooltipTriggerEl) {
-                    return new bootstrap.Tooltip(tooltipTriggerEl);
-                });
-            });
-        </script>
     </body>
 </html>
