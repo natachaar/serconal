@@ -2,38 +2,28 @@
 <html lang="en" data-bs-theme="light" data-pwa="true">
     <head>
         <meta charset="utf-8">
-        <!-- Viewport -->
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover">
-        <!-- SEO Meta Tags -->
         <title>Serconal | Agencia de Servicios a Cuba</title>
         <meta name="description" content="Agencias de Servicios a Cuba, envío de dinero, envío de recargas a celulares, compras de productos en línea.">
         <meta name="keywords" content="">
         <meta name="author" content="">
-        <!--Favicon-->
         <link rel="icon" type="image/x-icon" href="<?= base_url('assets/img/favicon.png'); ?>" />
-        <!-- Bootstrap + Theme styles -->
         <link rel="stylesheet" href="<?= base_url('assets/css/bootstrap.min.css'); ?>">
         <link rel="stylesheet" href="<?= base_url('assets/css/theme.css?v=1.0.0'); ?>">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     </head>
     <body>
-
-
-        <!-- ========== HEADER ========== -->
         <header id="header" class="navbar navbar-expand-lg navbar-center navbar-light bg-white fixed-top">
             <div class="container-lg">
                 <nav class="js-mega-menu navbar-nav-wrap">
-                    <!-- Logo -->
                     <a class="navbar-brand" href="<?= base_url(); ?>" aria-label="Serconal">
                         <img class="navbar-brand-logo" src="<?= base_url('assets/img/logo.png'); ?>" alt="Logo" style="max-width: 12.5rem;">
                     </a>
-                    <!-- Secondary Content -->
                     <div class="navbar-nav-wrap-secondary-content">
                         <a class="btn btn-primary navbar-btn" href="<?= base_url('login'); ?>">
-                            Dashboard <i class="bi bi-box-arrow-in-right fa-lg ms-1"></i>
+                            <span class="d-none d-sm-inline">Dashboard</span> <i class="bi bi-box-arrow-in-right fa-lg ms-md-1"></i>
                         </a>
                     </div>
-                    <!-- Toggler -->
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContainerNavDropdown" aria-controls="navbarContainerNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-default">
                             <i class="bi-list"></i>
@@ -42,9 +32,6 @@
                             <i class="bi-x"></i>
                         </span>
                     </button>
-                    <!-- End Toggler -->
-
-                    <!-- Collapse -->
                     <div class="collapse navbar-collapse" id="navbarContainerNavDropdown">
                         <ul class="navbar-nav justify-content-end me-5">
                             <li class="nav-item">
@@ -56,26 +43,18 @@
                             </li>
                         </ul>
                     </div>
-                    <!-- End Collapse -->
                 </nav>
             </div>
         </header>        
-        <!-- ========== END HEADER ========== -->
-        <!-- ========== MAIN CONTENT ========== -->
         <main id="content" role="main" class="main">
-            <!-- Hero -->
             <div class="overflow-hidden gradient-radial-sm-primary">
                 <div class="container-lg content-space-t-3 content-space-t-lg-4 content-space-b-2">
                     <div class="w-lg-75 text-center mx-lg-auto text-center mx-auto">
-                        <!-- Heading -->
                         <div class="mb-7 animated fadeInUp">
                             <h1 class="display-2 mb-3">Agencia de Servicios <span class="text-primary text-highlight-warning">a Cuba</span></h1>
                             <p class="fs-2">Serconal S.A. de C.V., empresa 100% mexicana.</p>
                         </div>
-                        <!-- End Heading -->
                     </div>
-
-                    <!-- Browser Device -->
                     <div class="row justify-content-center row-cols-2 row-cols-md-4 g-4">
                         <div class="col">
                             <div class="d-flex flex-column flex-xxl-row align-items-center">
@@ -105,23 +84,16 @@
                             </div>
                         </div>
                     </div>
-                    <!-- End Browser Device -->
                 </div>
             </div>
-            <!-- End Hero -->
-
-            <!-- Card Grid -->
-            <div class="container-lg content-space-t-lg-2 content-space-b-2 content-space-b-lg-3">
-                <!-- Heading -->
+            <div class="container-lg content-space-t-lg-2 content-space-b-2">
                 <div class="w-lg-75 text-center mx-lg-auto mb-7 mb-md-10">
                     <h2 class="display-4">Alguno de nuestros <span class="text-primary">servicios</span></h2>
                     <p class="lead">Desde compra de productos en línea para tus familiares y amigos en Cuba hasta recargas de celulares y más...</p>
                 </div>
-                <!-- End Heading -->
-
                 <div class="row justify-content-center align-items-center mb-3">
                     <div class="col-md-6 text-center">
-                        <img class="img-fluid" src="<?= base_url('assets/img/dapamas.png') ?>" width="40%" alt="Dapamas Marketplace">
+                        <img class="img-fluid mb-3" src="<?= base_url('assets/img/dapamas.png') ?>" width="40%" alt="Dapamas Marketplace">
                     </div>
                     <div class="col-md-5">
                         <h3 class="display-5 me-3">Dapamas Tienda, <br>el marketplace donde comprar para Cuba.</h3>
@@ -137,8 +109,8 @@
                     </div>
                 </div>
                 <hr>
-                <div class="row justify-content-center align-items-center mb-3">
-                    <div class="col-md-5 offset-1">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-md-5 order-2 order-md-1 offset-1">
                         <h3 class="display-5 me-3">Recargas de celulares, <br>paquete de datos y cuentas nautas.</h3>
                         <p class="lead mb-4">
                             Realiza recargas a Cuba de forma fácil, rápida y segura, ya sea para celulares, cuentas Nauta o planes combinados con datos, minutos y SMS. 
@@ -152,16 +124,63 @@
                             Realizar una recarga
                             <i class="bi bi-arrow-up-right ms-2"></i>
                         </a>
-
                     </div>
-                    <div class="col-md-5 text-center">
-                        <img class="img-fluid" src="<?= base_url('assets/img/connection.svg') ?>" alt="Servicios a Cuba">
+                    <div class="col-md-5 order-1 order-md-2 text-center">
+                        <img class="img-fluid mb-3" src="<?= base_url('assets/img/connection.svg') ?>" alt="Servicios a Cuba">
+                    </div>
+                </div>                
+            </div>
+            <div class="container-lg gradient-radial-sm-primary content-space-t-lg-2 content-space-b-2 content-space-b-lg-4">
+                <div class="w-lg-75 text-center mx-lg-auto mb-7 mb-md-10">
+                    <h2 class="display-4">Contáctanos</h2>
+                </div>
+                <div class="row justify-content-center row-cols-2 row-cols-md-4 g-4">
+                    <div class="col text-center">
+                        <img src="<?= base_url('assets/img/helpdesk.gif') ?>" alt="alt" width="80">
+                        <div class="text-center mt-2">
+                            <h3 class="h4 mb-2">Atención a Clientes</h3>
+                            <p class="fs-4 mb-0">
+                                <span class="d-block">
+                                    <i class="bi bi-telephone-x me-1"></i>
+                                    (+52) 56 2044 8115
+                                </span>
+                                <span class="d-block">
+                                    <i class="bi bi-telephone-x me-1"></i>
+                                    (+52) 55 1202 3374
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col text-center">
+                        <img src="<?= base_url('assets/img/clock.gif') ?>" alt="alt" width="80">
+                        <div class="text-center mt-2">
+                            <h3 class="h4 mb-2">Horarios</h3>
+                            <p class="fs-4 mb-0">
+                                <span class="d-block">
+                                    <b>Lunes</b> - <b>Jueves</b> - 9:30am a 5:30pm
+                                </span>
+                                <span class="d-block">
+                                    <b>Viernes</b> - 9:30am a 5:00pm
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col text-center">
+                        <img src="<?= base_url('assets/img/message.gif') ?>" alt="alt" width="80">
+                        <div class="text-center mt-2">
+                            <h3 class="h4 mb-2">Correo Electrónico</h3>
+                            <p class="fs-4 mb-0">
+                                <span class="d-block">
+                                    clientes@oceancard.com.mx
+                                </span>
+                                <span class="d-block">
+                                    oceancardmexico@gmail.com
+                                </span>
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
-            <!-- End Card Grid -->
-
-            <!-- Features -->
             <div class="container-lg content-space-b-2">
                 <ul class="list-inline list-py-2 list-px-1 text-center mb-0">
                     <li class="list-inline-item">
@@ -220,14 +239,8 @@
                     </li>
                 </ul>
             </div>
-            <!-- End Features -->
-
         </main>
-        <!-- ========== END MAIN CONTENT ========== -->
-
-        <!-- ========== FOOTER ========== -->
         <footer class="container-lg text-center pb-10">
-            <!-- Socials -->
             <ul class="list-inline mb-3">
                 <li class="list-inline-item">
                     <a class="btn btn-soft-secondary btn-sm btn-icon rounded-circle" href="https://www.facebook.com/oceancardmexico/" target="_blank" title="Oceancard de México S.A de C.V.">
@@ -239,15 +252,9 @@
                         <i class="bi bi-instagram"></i>
                     </a>
                 </li>
-           </ul>
-            <!-- End Socials -->
-
+            </ul>
             <p class="mb-0">&copy; Serconal S.A. de C.V. Todos los derechos reservados.</p>
         </footer>
-        <!-- ========== END FOOTER ========== -->
-
-        <!-- Bootstrap + Theme scripts -->
         <script src="<?= base_url('assets/js/bootstrap.bundle.min.js') ?>"></script>
-        <script src="<?= base_url('assets/js/jquery-3.6.0.min.js') ?>"></script>
     </body>
 </html>
