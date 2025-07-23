@@ -74,7 +74,6 @@ abstract class BaseController extends Controller {
         // E.g.: $this->session = service('session');
         $this->session = \Config\Services::session();
         $this->validation = \Config\Services::validation();
-        $this->db = \Config\Database::connect(); //libreria database
         $this->GeneralModel = new \App\Models\GeneralModel(); //modelo general
     }
 }

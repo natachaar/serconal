@@ -44,9 +44,10 @@ class GeneralModel extends Model {
 
     public function deleteInfo($table, $where) { //metodo delete
         $this->db->table($table)->where($where)->delete();
+        return $this->db->affectedRows();
     }
 
-    public function query($sql) { //metodo ejecutar query
+    public function runQuery($sql) { //metodo ejecutar query
         return $this->db->query($sql)->getResult();
     }
 
