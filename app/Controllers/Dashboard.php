@@ -5,6 +5,6 @@ namespace App\Controllers;
 class Dashboard extends BaseController {
 
     public function index() {
-        echo 'aqui estoy';
+           return view('layout/view_home_dashboard');
     }
 }
