@@ -16,6 +16,14 @@ if (!function_exists('getUserAgent')) {
 
 }
 
+if (!function_exists('validUserAdmin')) {
+
+    function validUserAdmin() {
+        $session = session();
+        return isset($session->LoggedInAccount['userType']) && $session->LoggedInAccount['userType'] == 1;
+    }
+}
+
 if (!function_exists('randomPassword')) {
 
     function randomPassword() {

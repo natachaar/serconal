@@ -12,6 +12,12 @@ $routes->group('/', static function ($routes) {
     $routes->get('logout', 'Home::logout');
 });
 
-$routes->group('dashboard', static function ($routes) {
-    $routes->get('', 'Dashboard::index');
+$routes->group('dashboard', ['filter' => 'admin'], static function ($routes) {
+    $routes->get('', 'dashboard\Dashboard::index');
 });
+
+$routes->group('dashboard/fonmoney', ['filter' => 'admin'], static function ($routes) {
+    $routes->get('', 'dashboard\Fonmoney::index');
+});
+
+

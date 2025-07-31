@@ -78,13 +78,16 @@
             <!-- Content -->
             <div class="content container" style="margin-top: -15rem;">
                 <div class="row justify-content-center gap-4">
-                    <div class="col-md-3 card-transition">
+                    <div class="col-md-3 order-3 order-md-1 card-transition">
                         <div class="card card-centered shadow-lg  mb-3 mb-lg-5">
                             <div class="card-body py-3 my-lg-10">
                                 <img class="img-fluid mb-5" src="<?= base_url('assets/img/logo-cu.svg'); ?>" alt="Cuballama" style="max-width: 12rem;">
                                 <h1>Cuballama Dashboard</h1>
                                 <p class="fw-bold mb-4">
-                                    <span class="badge bg-soft-dark fs-4 text-dark">0</span> <span class="text-muted">transacciones pendientes</span>
+                                    <span class="badge bg-soft-dark fs-4 text-dark">
+                                        <?= $TransCU; ?>
+                                    </span> 
+                                    <span class="text-muted">transacciones pendientes</span>
                                 </p>
                                 <a class="btn btn-primary" href="<?= base_url('dashboard/cuballama'); ?>">
                                     Dashboard <i class="bi bi-box-arrow-in-right ms-1 fa-lg"></i>
@@ -92,13 +95,16 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 card-transition">
+                    <div class="col-md-3 order-1 order-md-2 card-transition">
                         <div class="card card-centered shadow-lg mb-3 mb-lg-5">
                             <div class="card-body py-3 my-lg-10">
                                 <img class="img-fluid mb-5" src="<?= base_url('assets/img/logo-fm.svg'); ?>" alt="Fonmoney" style="max-width: 15rem;">
                                 <h1>Fonmoney Dashboard</h1>
                                 <p class="fw-bold mb-4">
-                                    <span class="badge bg-soft-dark fs-4 text-dark">11</span> <span class="text-muted"> transacciones pendientes</span>
+                                    <span class="badge bg-soft-dark fs-4 text-dark">
+                                        <?= $TransFM; ?>
+                                    </span> 
+                                    <span class="text-muted"> transacciones pendientes</span>
                                 </p>
                                 <a class="btn btn-primary" href="<?= base_url('dashboard/fonmoney'); ?>">
                                     Dashboard <i class="bi bi-box-arrow-in-right ms-1 fa-lg"></i>
@@ -106,14 +112,16 @@
                             </div>
                         </div>
                     </div>
-
-                    <div class="col-md-3 card-transition">
+                    <div class="col-md-3 order-2 order-md-3 card-transition">
                         <div class="card card-centered shadow-lg mb-3 mb-lg-5">
                             <div class="card-body py-3 my-lg-10">
                                 <img class="img-fluid mb-5" src="<?= base_url('assets/img/oceancard.jpg'); ?>" alt="Oceancard" style="max-width: 12rem;">
                                 <h1>Oceancard Dashboard</h1>
                                 <p class="fw-bold mb-4">
-                                    <span class="badge bg-soft-dark fs-4 text-dark">2</span> <span class="text-muted">transacciones pendientes</span>
+                                    <span class="badge bg-soft-dark fs-4 text-dark">
+                                        <?= $TransOC; ?>
+                                    </span> 
+                                    <span class="text-muted">transacciones pendientes</span>
                                 </p>
                                 <a class="btn btn-primary" href="<?= base_url('dashboard/oceancard'); ?>">
                                     Dashboard <i class="bi bi-box-arrow-in-right ms-1 fa-lg"></i>
